@@ -1,0 +1,178 @@
+
+body{
+    background-image: url(../images/bg.jpg);
+    background-size: 100% 100%;
+    font-family: "Taviraj", serif;
+
+}
+header{
+    background-image: url(../images/banner.jpg);
+    background-size: 100% 100%;
+}
+.bannerContainer{
+    overflow: hidden;
+    width: 100%;
+}
+.banner{
+    overflow: hidden;
+    width: 100%;
+    height: 50%;
+    margin: 15% 0;
+}
+.banner h1,
+.banner p,
+.banner .btn-banner{
+    margin:  30px 0 ;
+    font-family: "Taviraj", serif;
+}
+.banner h1{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 4rem;
+}
+.banner p{
+    color: #ccc;
+    width: 70%;
+    margin: auto;
+    font-size: 22px;
+    line-height: 2;
+    letter-spacing: 1.5px;
+}
+.banner p > a{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+.banner .btn-banner{
+    width: 150px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 6px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.lorim{
+    overflow: hidden;
+    background-color: #eee;
+    padding: 40px 0;
+}
+.lorim .img-container{
+    width: 100%;
+    height: 50%;
+}
+.lorim .lorim-speach{
+    width: 100%;
+    height: 50%;
+    background-color: #fff;
+    padding:  45px ;
+}
+.lorim .lorim-speach h1{
+    margin: 20px;
+    color: rgba(0, 0, 0, 0.637);
+}
+.lorim .lorim-speach p,
+.lorim .lorim-speach span{
+    color: #A6A6A6;
+}
+.items-section{
+    background-color: black;
+    opacity: .7;
+
+}
+.items-section .item{
+    margin:50px 0px;
+    padding: 18px;
+    border-right: 1px solid #ccc;
+}
+.items-section .item3{
+    border-right: none;
+}
+.items-section .item > h1,
+.items-section .item > p,
+.items-section .item > div{
+    margin: 10px 0;
+}
+.items-section .item p > a{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+.items-section .item .btn-item{
+    width: 150px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 6px 25px;
+    text-transform: capitalize;
+    font-size: 20px;
+    border: 2px solid rgba(238, 238, 238, 0.315);
+    border-radius: 10px;
+    background-color: transparent !important;
+    cursor: pointer;
+}
+.items-section .item .btn-item:hover{
+    background-color: rgba(245, 222, 179, 0.116) !important;
+}
+
+.form{
+    overflow: hidden;
+    background-color: #eee;
+
+}
+.form-container{
+    overflow: hidden;
+    background-color: #fff;
+    margin: 60px 0;
+    padding: 50px;
+}
+form  input,
+form  label,
+form  textarea,
+form  select{
+    padding: 7px 15px;
+    margin: 15px 7px;
+    width: 100% !important;
+    background-color: #eee;
+    border: 1.5px solid #ccc;
+    border-radius: 4px;
+}
+form  label{
+    border: none;
+    text-transform: capitalize;
+    padding: 0;
+    color: teal;
+    background-color: transparent;
+
+}
+input::placeholder{
+    color: #ccc;
+}
+select{
+    outline: none;
+    color: teal;
+}
+footer{
+    height: 60px;
+    background-color: #eee;
+}
+footer span{
+    color: teal;
+    text-transform: capitalize;
+}
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+.btn-banner{
+    margin:  30px auto ;
+    font-family: "Taviraj", serif;
+    font-size: 20px;
+    width: 150px;
+    padding: 6px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
