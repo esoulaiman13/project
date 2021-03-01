@@ -154,10 +154,12 @@ select{
 footer{
     height: 70px;
     background-color: #eee;
+    Padding: 0 20px;
 }
 footer span{
     color: teal;
     text-transform: capitalize;
+
 }
 
 
